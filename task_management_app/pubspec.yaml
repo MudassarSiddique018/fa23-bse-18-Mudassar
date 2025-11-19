@@ -1,0 +1,40 @@
+name: task_management_app
+description: A Flutter task management app with SQLite, notifications, export (starter).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Database & paths
+  sqflite: ^2.2.8
+  path_provider: ^2.0.15
+  path: ^1.8.3
+
+  # Notifications/time
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+
+  # Export & sharing
+  csv: ^5.0.0
+  pdf: ^3.11.0
+  # Share Plus for sharing content
+  share_plus: ^6.3.4
+
+
+  # Utilities
+  intl: ^0.18.0
+  crypto: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
